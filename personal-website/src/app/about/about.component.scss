@@ -1,0 +1,60 @@
+.about-me {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .about-me h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-details {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .about-icon {
+    font-size: 50px;
+    color: #007bff;
+    margin-right: 20px;
+  }
+  
+  .about-info {
+    max-width: 800px;
+  }
+  
+  .about-info p {
+    margin: 0 0 15px 0;
+  }
+  
+  .about-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-info li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .about-info li i {
+    font-size: 20px;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .about-info li strong {
+    color: #333;
+  }
+  
