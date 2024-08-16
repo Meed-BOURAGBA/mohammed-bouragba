@@ -1,24 +1,9 @@
-<div class="language-switcher">
-  <img src="assets/flags/fr.svg" alt="Français" (click)="changeLanguage('fr')" class="flag-icon" />
-  <img src="assets/flags/en.svg" alt="English" (click)="changeLanguage('en')" class="flag-icon" />
-</div>
-
-<div>
-  <h2>{{ 'ABOUT_ME' | translate }}</h2>
-  <p>{{ 'DESCRIPTION' | translate }}</p>
-  
-  <h2>{{ 'EXPERIENCE' | translate }}</h2>
-  <!-- Détails de l'expérience -->
-
-  <h2>{{ 'PROJECTS' | translate }}</h2>
-  <!-- Détails des projets -->
-
-  <h2>{{ 'SKILLS' | translate }}</h2>
-  <!-- Liste des compétences -->
-
-  <h2>{{ 'EDUCATION' | translate }}</h2>
-  <!-- Détails de l'éducation -->
-
-  <h2>{{ 'CONTACT' | translate }}</h2>
-  <!-- Informations de contact -->
-</div>
+<nav>
+  <a routerLink="/">Home</a>
+  <a routerLink="/about">About</a>
+  <a routerLink="/experiences">Expérience</a>
+  <a routerLink="/formations">Formations</a>
+  <a routerLink="/projects">Projects</a>
+  <a routerLink="/contact">Contact</a>
+</nav>
+<router-outlet></router-outlet>
